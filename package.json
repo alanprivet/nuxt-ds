@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-ds",
+  "version": "0.1.0",
+  "description": "Nuxt-Ds module",
+  "main": "lib/module.js",
+  "author": "alanprivet <alannprivet@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/alanprivet/nuxt-ds",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "bulma",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "@fourix/ds": "alanprivet/ds",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.4",
+    "sass-loader": "^10.0.2",
+    "standard-version": "latest"
+  }
+}
